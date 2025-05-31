@@ -1,20 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package sumar.el.arreglo;
 
-/**
- *
- * @author crist
- */
 public class SumarElArreglo {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        int arregloNumeros[] = {2,5,1,8,3,8,2,6,9,2,5,8,1,3};
+        
+        int suma = 0;
+        
+        for (int i = 0; i < arregloNumeros.length; i++) {
+            suma += arregloNumeros[i];
+            System.out.println("Suma temporal: " + suma);
+        }
+        
+        System.out.println("Suma: " + suma);
+
     }
-    
+
 }
